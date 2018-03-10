@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HappinessTrivia</string>
+    <string name="bhutan">This day was proposed by the country of Bhutan to the United Nations in 2011 \nand launched an international focus on happiness.</string>
+    <string name="start_quiz">Start Quiz</string>
+</resources>
