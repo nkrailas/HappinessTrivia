@@ -41,16 +41,6 @@
             android:text="Let's begin the quiz!"
             android:textSize="16sp" />
 
-        <EditText
-            android:id="@+id/person_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:hint="Please enter your first name"
-            android:imeOptions="actionNone"
-            android:inputType="textPersonName|textCapWords"
-            android:padding="8dp" />
-
         <Button
             android:id="@+id/button_start_quiz"
             android:layout_width="wrap_content"
