@@ -1,11 +1,10 @@
 <resources>
 
     <string name="app_name">Happiness Trivia</string>
-    <string name="main_intro">Happiness is a fascinating topic that has been examined for centuries (and counting).</string>
-    <string name="main_body1">For instance, did you know happiness is about 50% genetic, so a larger part is under our control? </string>
-    <string name="main_body2">Or, since 2012, International Day of Happiness is celebrated on March 20th?</string>
-    <string name="main_learn">Learn more happiness trivia by taking the quiz!</string>
-    <string name="start_quiz">Start Quiz</string>
+    <string name="main_intro">Happiness is a fascinating topic that has been pondered for centuries and continues to be studied today.</string>
+    <string name="main_body">For instance, did you know happiness is about 50% genetic, so a larger part is under our control? Or, since 2012, International Day of Happiness is celebrated on March 20th?</string>
+    <string name="main_learn">Learn more happiness trivia!</string>
+    <string name="start_quiz">Take the Quiz</string>
 
     <string name="field_name">What is your name?</string>
 
@@ -75,17 +74,17 @@
 
     <string name="question_9_of_10">Question 9 of 10</string>
     <string name="question_9_text">Aim for ___ hours of sleep each night because the amount of sleep directly influences happiness level. </string>
-    <string name="_6h">3-4</string>
-    <string name="_7h">5-6</string>
-    <string name="_8h">7-8</string>
-    <string name="_9h">9-10</string>
-    <string name="_10h">11-12</string>
+    <string name="_6h">3 to 4</string>
+    <string name="_7h">5 to 6</string>
+    <string name="_8h">7 to 8</string>
+    <string name="_9h">9 to 10</string>
+    <string name="_10h">11 to 12</string>
 
     <string name="question_10_of_10">Question 10 of 10</string>
     <string name="type_color">Please type in one color</string>
     <string name="question_10_text">_____ is the top pick for healthy people who associate mood with color.</string>
 
-    <string name="score">Score</string>
+    <string name="score">How Did You Do?</string>
     <string name="answer_key">Answer Key</string>
 
 </resources>

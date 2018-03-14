@@ -351,8 +351,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
             android:paddingTop="24dp"
             android:text="@string/question_6_of_10"
             android:textSize="16sp" />
@@ -360,8 +358,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
             android:padding="16dp"
             android:text="@string/question_6_text"
             android:textSize="16sp" />
@@ -634,7 +630,8 @@
             android:hint="@string/type_color"
             android:imeOptions="actionNone"
             android:inputType="text|textCapWords"
-            android:padding="8dp" />
+            android:padding="8dp"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/button_score"

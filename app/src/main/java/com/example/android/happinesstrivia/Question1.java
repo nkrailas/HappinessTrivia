@@ -1,9 +1,7 @@
 package com.example.android.happinesstrivia;
 
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -18,53 +16,56 @@ public class Question1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
 
-        // Access Button group and save as a variable named "score"
-        Button score = (Button) findViewById(R.id.button_score);
+        // Initialize Button for score to be displayed in Toast
+        Button score = findViewById(R.id.button_score);
         score.setOnClickListener(new View.OnClickListener() {
 
-            // This method is called when each radio button and checkbox is clicked
+            // This method is called when each RadioButton and CheckBox is clicked
             @Override
             public void onClick(View view) {
 
-                //If user inputs name, then it is stored in a variable named "hasName"
+                // Initialize Edit Text for Name Field
                 EditText nameField = findViewById(R.id.person_name);
                 String hasName = nameField.getText().toString();
 
-                //Access CheckBox group and save as a variable named "question2"
-                CheckBox q2_email = findViewById(R.id.email);
-                boolean has_q2_email = q2_email.isChecked();
+                // Initialize CheckBoxes for Question 2
+                CheckBox checkedEmail = findViewById(R.id.email);
+                CheckBox checkedHobby = findViewById(R.id.hobby);
+                CheckBox checkedFacebook = findViewById(R.id.facebook);
+                CheckBox checkedPetting = findViewById(R.id.petting);
+                CheckBox checkedVolunteering = findViewById(R.id.volunteering);
+                boolean hasCheckedEmail = checkedEmail.isChecked();
+                boolean hasCheckedHobby = checkedHobby.isChecked();
+                boolean hasCheckedFacebook = checkedFacebook.isChecked();
+                boolean hasCheckedPetting = checkedPetting.isChecked();
+                boolean hasCheckedVolunteering = checkedVolunteering.isChecked();
 
-                CheckBox q2_facebook = findViewById(R.id.facebook);
-                boolean has_q2_facebook = q2_facebook.isChecked();
-
-                CheckBox q2_hobby = findViewById(R.id.hobby);
-                CheckBox q2_petting = findViewById(R.id.petting);
-                CheckBox q2_volunteering = findViewById(R.id.volunteering);
-
-                //Access CheckBox group and save as a variable named "question8"
-                CheckBox q8_milk = findViewById(R.id.milk);
-                boolean has_q8_milk = q8_milk.isChecked();
-
-                CheckBox q8_nuts = findViewById(R.id.nuts);
-                boolean has_q8_nuts = q8_nuts.isChecked();
-
-                CheckBox q8_turkey = findViewById(R.id.turkey);
-                boolean has_q8_turkey = q8_turkey.isChecked();
+                // Initialize CheckBoxes for Question 8
+                CheckBox checkedBroccoli = findViewById(R.id.broccoli);
+                CheckBox checkedMilk = findViewById(R.id.milk);
+                CheckBox checkedNuts = findViewById(R.id.nuts);
+                CheckBox checkedPears = findViewById(R.id.pears);
+                CheckBox checkedTurkey = findViewById(R.id.turkey);
+                boolean hasCheckedBroccoli = checkedBroccoli.isChecked();
+                boolean hasCheckedMilk = checkedMilk.isChecked();
+                boolean hasCheckedNuts = checkedNuts.isChecked();
+                boolean hasCheckedPears = checkedPears.isChecked();
+                boolean hasCheckedTurkey = checkedTurkey.isChecked();
 
 
-                CheckBox q8_broccoli = findViewById(R.id.broccoli);
-                CheckBox q8_pears = findViewById(R.id.pears);
+                // Initialize Edit Text for Question 10
+                EditText q10Field = findViewById(R.id.field_q10);
+                String Yellow = q10Field.getText().toString();
 
-
-                // Initialize the variable named "score"
+                // Declare variable for score
                 int score = 0;
 
-                // Conditional statements used to calculate points for each question
-
+                // Initialize RadioButtons for Questions 1, 3-7, and 9
+                // Conditional statements used to calculate points for Questions 1-10
                 if (((RadioButton) findViewById(R.id.button_20_minutes)).isChecked()) {
                     score++;
                 }
-                if ((has_q2_email) && (has_q2_facebook)) {
+                if (hasCheckedEmail & hasCheckedFacebook & !hasCheckedHobby & !hasCheckedPetting & !hasCheckedVolunteering) {
                     score++;
                 }
                 if (((RadioButton) findViewById(R.id.button_consumerism)).isChecked()) {
@@ -82,25 +83,31 @@ public class Question1 extends AppCompatActivity {
                 if (((RadioButton) findViewById(R.id.button_floral)).isChecked()) {
                     score++;
                 }
-                if ((has_q8_milk) && (has_q8_nuts) && (has_q8_turkey)) {
-                    score++;
-                }
                 if (((RadioButton) findViewById(R.id.button_8h)).isChecked()) {
                     score++;
                 }
+                if (hasCheckedMilk & hasCheckedNuts & hasCheckedTurkey & !hasCheckedBroccoli & !hasCheckedPears) {
+                    score++;
+                }
+                if (Yellow.contains("Yellow")) {
+                    score++;
+                }
 
-
+                // Input for Toast message with user greeting and quiz score
                 displayResult(score, hasName);
             }
 
         });
     }
 
-    // Display Toast with user greeting and final score
+    // Display Toast message with user greeting and quiz score
     private void displayResult(int score, String hasName) {
         String message = "Hi " + hasName + "! You scored " + score + " out of 10.";
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        String message_10 = "\nCongrats! You got a perfect 10!";
+
+        if (score == 10) {
+            Toast.makeText(this, message + message_10, Toast.LENGTH_LONG).show();
+        } else Toast.makeText(this, message, Toast.LENGTH_LONG).show();
 
     }
-
 }

@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="8dp"
             android:text="@string/main_intro"
             android:textSize="18sp" />
 
@@ -31,16 +31,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="4dp"
-            android:text="@string/main_body1"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="6dp"
-            android:text="@string/main_body2"
+            android:layout_marginBottom="8dp"
+            android:text="@string/main_body"
             android:textSize="16sp" />
 
         <TextView
