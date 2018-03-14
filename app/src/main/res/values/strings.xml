@@ -84,9 +84,10 @@
     <string name="type_color">Please type in one color</string>
     <string name="question_10_text">_____ is the top pick for healthy people who associate mood with color.</string>
 
-    <string name="score">How Did You Do?</string>
+    <string name="button_score">How Did You Do?</string>
+    <string name="button_answer">Answers | Bibliography</string>
 
-    <string name="answer_key">Answer Key</string>
+    <string name="answer_title">Answers</string>
     <string name="answer_q1">1) 20 minutes</string>
     <string name="answer_q2">2) Checking email more than 3x/day AND Facebook and other social media</string>
     <string name="answer_q3">3) Consumerism</string>
@@ -97,5 +98,14 @@
     <string name="answer_q8">8) Milk, nuts, AND turkey</string>
     <string name="answer_q9">9) 7 to 8</string>
     <string name="answer_q10">10) Yellow</string>
+
+    <string name="bibliography_title">Bibliography</string>
+    <string name="florentine_e">Florentine, E. (2016, July 11). 11 Scientific Facts About Happiness That You\'ll Want to Know. </string>
+    <string name="hettner_k">Hettner, K. (2017, March 21). Where are the World\'s Happiest Countries?</string>
+    <string name="lehnardt_k">Lehnardt, K. (2017, August 22). 56 Cheerful Facts About Happiness.</string>
+    <string name="nine_questions">Nine Questions for Dan Buettner: Happiest Lessons from the Happiest Countries and Cities in the World. (2017, October 11).</string>
+    <string name="pappas_s">Pappas, S. (2010, February 8). Different Colors Describe Happiness or Depression.</string>
+    <string name="webpage_fx">Webpage FX. (2013, December 5). The Science of Happiness: What Biology and Data Reveal About Our Mood.</string>
+    <string name="where_cities">Where are the Happiest Cities in America? (2017, October 18).</string>
 
 </resources>

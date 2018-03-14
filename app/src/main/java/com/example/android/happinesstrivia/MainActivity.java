@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+// Image: https://blogs.iadb.org/ideasmatter/2017/04/19/latin-americans-happier-gdp-suggest/
 
 public class MainActivity extends AppCompatActivity {
 
