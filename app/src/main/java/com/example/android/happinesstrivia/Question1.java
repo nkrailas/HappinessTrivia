@@ -1,5 +1,6 @@
 package com.example.android.happinesstrivia;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class Question1 extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +100,15 @@ public class Question1 extends AppCompatActivity {
             }
 
         });
+
+        // This method is called with the Answer Key button is clicked
+        Button answerKey = findViewById(R.id.button_answer);
+        answerKey.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchActivity();
+            }
+        });
     }
 
     // Display Toast message with user greeting and quiz score
@@ -110,4 +121,10 @@ public class Question1 extends AppCompatActivity {
         } else Toast.makeText(this, message, Toast.LENGTH_LONG).show();
 
     }
+
+    private void launchActivity() {
+        Intent intent = new Intent(this, Answer.class);
+        startActivity(intent);
+    }
+
 }

@@ -85,6 +85,17 @@
     <string name="question_10_text">_____ is the top pick for healthy people who associate mood with color.</string>
 
     <string name="score">How Did You Do?</string>
+
     <string name="answer_key">Answer Key</string>
+    <string name="answer_q1">1) 20 minutes</string>
+    <string name="answer_q2">2) Checking email more than 3x/day AND Facebook and other social media</string>
+    <string name="answer_q3">3) Consumerism</string>
+    <string name="answer_q4">4) Norway, followed by Denmark, Switzerland, and Finland. Canada was 7th, Australia and Sweden tied for 9th, and the United States was 14th.</string>
+    <string name="answer_q5">5) Boulder, CO, followed by Santa Cruz-Watsonville, CA; Charlottesville, VA; Fort Collins, CO; and San Luis Obispo, CA.</string>
+    <string name="answer_q6">6) 57°F</string>
+    <string name="answer_q7">7) Floral</string>
+    <string name="answer_q8">8) Milk, nuts, AND turkey</string>
+    <string name="answer_q9">9) 7 to 8</string>
+    <string name="answer_q10">10) Yellow</string>
 
 </resources>
