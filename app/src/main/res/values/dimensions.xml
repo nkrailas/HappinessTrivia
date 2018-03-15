@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">14sp</dimen>
+    <dimen name="textSize_Main">18sp</dimen>
+    <dimen name="textSize_Button">16sp</dimen>
+    <dimen name="layoutMarginLeft_Button">16dp</dimen>
+    <dimen name="layoutMarginStart_Button">16dp</dimen>
+    <dimen name="padding_Button">6dp</dimen>
+    <dimen name="padding_Question_Text">16dp</dimen>
+</resources>

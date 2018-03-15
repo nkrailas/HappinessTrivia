@@ -1,13 +1,16 @@
 package com.example.android.happinesstrivia;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Question1 extends AppCompatActivity {
@@ -97,6 +100,7 @@ public class Question1 extends AppCompatActivity {
 
                 // Input for Toast message with user greeting and quiz score
                 displayResult(score, hasName);
+
             }
 
         });
@@ -112,7 +116,7 @@ public class Question1 extends AppCompatActivity {
     }
 
     // Display Toast message with user greeting and quiz score
-    private void displayResult(int score, String hasName) {
+    public void displayResult(int score, String hasName) {
         String message = "Hi " + hasName + "! You scored " + score + " out of 10.";
         String message_10 = "\nCongrats! You got a perfect 10!";
 
