@@ -563,12 +563,21 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/button_6h"
+                android:id="@+id/button_3h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
                 android:layout_marginStart="@dimen/layoutMarginStart_Button"
-                android:text="@string/_6h"
+                android:text="@string/_3hto4h"
+                android:textSize="@dimen/textSize" />
+
+            <RadioButton
+                android:id="@+id/button_5h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
+                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:text="@string/_5hto6h"
                 android:textSize="@dimen/textSize" />
 
             <RadioButton
@@ -577,16 +586,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
                 android:layout_marginStart="@dimen/layoutMarginStart_Button"
-                android:text="@string/_7h"
-                android:textSize="@dimen/textSize" />
-
-            <RadioButton
-                android:id="@+id/button_8h"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
-                android:text="@string/_8h"
+                android:text="@string/_7hto8h"
                 android:textSize="@dimen/textSize" />
 
             <RadioButton
@@ -595,16 +595,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
                 android:layout_marginStart="@dimen/layoutMarginStart_Button"
-                android:text="@string/_9h"
+                android:text="@string/_9hto10h"
                 android:textSize="@dimen/textSize" />
 
             <RadioButton
-                android:id="@+id/button_10h"
+                android:id="@+id/button_11h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
                 android:layout_marginStart="@dimen/layoutMarginStart_Button"
-                android:text="@string/_10h"
+                android:text="@string/_11hto12h"
                 android:textSize="@dimen/textSize" />
 
         </RadioGroup>

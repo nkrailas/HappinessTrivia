@@ -17,7 +17,7 @@
     <string name="_50_minutes">50 minutes</string>
 
     <string name="question_2_of_10">Question 2 of 10</string>
-    <string name="question_2_text">People who spend more time on these activities report being less happy. Check all that apply.</string>
+    <string name="question_2_text">People who spend more time on these activities report being less happy. Check two answers that apply.</string>
     <string name="email">Checking email more than 3x/day</string>
     <string name="hobby">Engaging in a hobby with others</string>
     <string name="facebook">Facebook and other social media</string>
@@ -65,7 +65,7 @@
     <string name="woodsy">Woodsy</string>
 
     <string name="question_8_of_10">Question 8 of 10</string>
-    <string name="question_8_text">These foods contain serotonin, which creates quick boosts of happiness. Check all that apply.</string>
+    <string name="question_8_text">These foods contain serotonin, which creates quick boosts of happiness. Check three answers that apply.</string>
     <string name="broccoli">Broccoli</string>
     <string name="milk">Milk</string>
     <string name="nuts">Nuts</string>
@@ -74,11 +74,11 @@
 
     <string name="question_9_of_10">Question 9 of 10</string>
     <string name="question_9_text">Aim for ___ hours of sleep each night because the amount of sleep directly influences happiness level. </string>
-    <string name="_6h">3 to 4</string>
-    <string name="_7h">5 to 6</string>
-    <string name="_8h">7 to 8</string>
-    <string name="_9h">9 to 10</string>
-    <string name="_10h">11 to 12</string>
+    <string name="_3hto4h">3 to 4</string>
+    <string name="_5hto6h">5 to 6</string>
+    <string name="_7hto8h">7 to 8</string>
+    <string name="_9hto10h">9 to 10</string>
+    <string name="_11hto12h">11 to 12</string>
 
     <string name="question_10_of_10">Question 10 of 10</string>
     <string name="type_color">Please type in one color</string>
