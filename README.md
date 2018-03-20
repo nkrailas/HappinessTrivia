@@ -6,6 +6,6 @@ Self-learning Java topics included switching between activities, common intents,
 
 Based on Lesson 12 - Final Project Rubric. Created as a Grow with Google Challenge Scholarship 2018 - Android Basics.
 
-Demo: TBD
+Demo: https://youtu.be/rEUmeuCGobE
 
 Image: https://blogs.iadb.org/wp-content/blogs.dir/77/files/2017/04/happiness.png
