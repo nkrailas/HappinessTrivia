@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="24dp"
+        android:layout_margin="@dimen/linear_layout"
         android:orientation="vertical">
 
         <EditText
@@ -19,20 +19,20 @@
             android:hint="@string/field_name"
             android:imeOptions="actionNone"
             android:inputType="textPersonName|textCapWords"
-            android:padding="8dp"
+            android:padding="@dimen/editText_name"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="18dp"
+            android:paddingTop="@dimen/paddingTop_question1"
             android:text="@string/question_1_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_1_text"
             android:textSize="@dimen/textSize" />
 
@@ -46,8 +46,7 @@
                 android:id="@+id/button_10_minutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_10_minutes"
                 android:textSize="@dimen/textSize" />
 
@@ -55,8 +54,7 @@
                 android:id="@+id/button_20_minutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_20_minutes"
                 android:textSize="@dimen/textSize" />
 
@@ -64,8 +62,7 @@
                 android:id="@+id/button_30_minutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_30_minutes"
                 android:textSize="@dimen/textSize" />
 
@@ -73,8 +70,7 @@
                 android:id="@+id/button_40_minutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_40_minutes"
                 android:textSize="@dimen/textSize" />
 
@@ -82,8 +78,7 @@
                 android:id="@+id/button_50_minutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_50_minutes"
                 android:textSize="@dimen/textSize" />
 
@@ -92,14 +87,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_2_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_2_text"
             android:textSize="@dimen/textSize" />
 
@@ -107,8 +102,7 @@
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/email"
             android:textSize="@dimen/textSize" />
 
@@ -116,8 +110,7 @@
             android:id="@+id/hobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/hobby"
             android:textSize="@dimen/textSize" />
 
@@ -125,8 +118,7 @@
             android:id="@+id/facebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/facebook"
             android:textSize="@dimen/textSize" />
 
@@ -134,8 +126,7 @@
             android:id="@+id/petting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/petting"
             android:textSize="@dimen/textSize" />
 
@@ -143,22 +134,21 @@
             android:id="@+id/volunteering"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/volunteering"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_3_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_3_text"
             android:textSize="@dimen/textSize" />
 
@@ -172,8 +162,7 @@
                 android:id="@+id/button_climate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/climate"
                 android:textSize="@dimen/textSize" />
 
@@ -181,8 +170,7 @@
                 android:id="@+id/button_consumerism"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/consumerism"
                 android:textSize="@dimen/textSize" />
 
@@ -190,8 +178,7 @@
                 android:id="@+id/button_physicalHealth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/physical_health"
                 android:textSize="@dimen/textSize" />
 
@@ -199,8 +186,7 @@
                 android:id="@+id/button_religion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/religion"
                 android:textSize="@dimen/textSize" />
 
@@ -208,8 +194,7 @@
                 android:id="@+id/button_socialNetworks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/social_networks"
                 android:textSize="@dimen/textSize" />
 
@@ -218,14 +203,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_4_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_4_text"
             android:textSize="@dimen/textSize" />
 
@@ -239,8 +224,7 @@
                 android:id="@+id/button_australia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/australia"
                 android:textSize="@dimen/textSize" />
 
@@ -248,8 +232,7 @@
                 android:id="@+id/button_canada"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/canada"
                 android:textSize="@dimen/textSize" />
 
@@ -257,8 +240,7 @@
                 android:id="@+id/button_norway"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/norway"
                 android:textSize="@dimen/textSize" />
 
@@ -266,8 +248,7 @@
                 android:id="@+id/button_sweden"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/sweden"
                 android:textSize="@dimen/textSize" />
 
@@ -275,8 +256,7 @@
                 android:id="@+id/button_unitedStates"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/united_states"
                 android:textSize="@dimen/textSize" />
 
@@ -285,14 +265,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_5_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_5_text"
             android:textSize="@dimen/textSize" />
 
@@ -306,8 +286,7 @@
                 android:id="@+id/button_boulderCO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/boulder_co"
                 android:textSize="@dimen/textSize" />
 
@@ -315,8 +294,7 @@
                 android:id="@+id/button_charlottesvilleVA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/charlottesville_va"
                 android:textSize="@dimen/textSize" />
 
@@ -324,8 +302,7 @@
                 android:id="@+id/button_fortCollinsCO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/fort_collins_co"
                 android:textSize="@dimen/textSize" />
 
@@ -333,8 +310,7 @@
                 android:id="@+id/button_sanLuisObispoCA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/san_luis_obispo_ca"
                 android:textSize="@dimen/textSize" />
 
@@ -342,8 +318,7 @@
                 android:id="@+id/button_santaCruzCA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/santa_cruz_watsonville_ca"
                 android:textSize="@dimen/textSize" />
 
@@ -352,14 +327,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_6_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_6_text"
             android:textSize="@dimen/textSize" />
 
@@ -373,8 +348,7 @@
                 android:id="@+id/button_34F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_34_f"
                 android:textSize="@dimen/textSize" />
 
@@ -382,8 +356,7 @@
                 android:id="@+id/button_57F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_57_f"
                 android:textSize="@dimen/textSize" />
 
@@ -391,8 +364,7 @@
                 android:id="@+id/button_64F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_64_f"
                 android:textSize="@dimen/textSize" />
 
@@ -400,8 +372,7 @@
                 android:id="@+id/button_79F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_79_f"
                 android:textSize="@dimen/textSize" />
 
@@ -409,8 +380,7 @@
                 android:id="@+id/button_88F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_88_f"
                 android:textSize="@dimen/textSize" />
 
@@ -419,14 +389,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_7_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_7_text"
             android:textSize="@dimen/textSize" />
 
@@ -440,8 +410,7 @@
                 android:id="@+id/button_citrus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/citrus"
                 android:textSize="@dimen/textSize" />
 
@@ -449,8 +418,7 @@
                 android:id="@+id/button_floral"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/floral"
                 android:textSize="@dimen/textSize" />
 
@@ -458,8 +426,7 @@
                 android:id="@+id/button_green"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/green"
                 android:textSize="@dimen/textSize" />
 
@@ -467,8 +434,7 @@
                 android:id="@+id/button_oceanic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/oceanic"
                 android:textSize="@dimen/textSize" />
 
@@ -476,8 +442,7 @@
                 android:id="@+id/button_woodsy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/woodsy"
                 android:textSize="@dimen/textSize" />
 
@@ -486,14 +451,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_8_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_8_text"
             android:textSize="@dimen/textSize" />
 
@@ -501,8 +466,7 @@
             android:id="@+id/broccoli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/broccoli"
             android:textSize="@dimen/textSize" />
 
@@ -510,8 +474,7 @@
             android:id="@+id/milk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/milk"
             android:textSize="@dimen/textSize" />
 
@@ -519,8 +482,7 @@
             android:id="@+id/nuts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/nuts"
             android:textSize="@dimen/textSize" />
 
@@ -528,8 +490,7 @@
             android:id="@+id/pears"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/pears"
             android:textSize="@dimen/textSize" />
 
@@ -537,22 +498,21 @@
             android:id="@+id/turkey"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-            android:layout_marginStart="@dimen/layoutMarginStart_Button"
+            android:layout_marginStart="@dimen/marginStart_button"
             android:text="@string/turkey"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_9_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_9_text"
             android:textSize="@dimen/textSize" />
 
@@ -566,8 +526,7 @@
                 android:id="@+id/button_3h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_3hto4h"
                 android:textSize="@dimen/textSize" />
 
@@ -575,8 +534,7 @@
                 android:id="@+id/button_5h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_5hto6h"
                 android:textSize="@dimen/textSize" />
 
@@ -584,8 +542,7 @@
                 android:id="@+id/button_7h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_7hto8h"
                 android:textSize="@dimen/textSize" />
 
@@ -593,8 +550,7 @@
                 android:id="@+id/button_9h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_9hto10h"
                 android:textSize="@dimen/textSize" />
 
@@ -602,8 +558,7 @@
                 android:id="@+id/button_11h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/layoutMarginLeft_Button"
-                android:layout_marginStart="@dimen/layoutMarginStart_Button"
+                android:layout_marginStart="@dimen/marginStart_button"
                 android:text="@string/_11hto12h"
                 android:textSize="@dimen/textSize" />
 
@@ -612,14 +567,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="24dp"
+            android:paddingTop="@dimen/paddingTop_question2to10"
             android:text="@string/question_10_of_10"
             android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding_Question_Text"
+            android:padding="@dimen/padding_questionText"
             android:text="@string/question_10_text"
             android:textSize="@dimen/textSize" />
 
@@ -631,7 +586,7 @@
             android:hint="@string/type_color"
             android:imeOptions="actionNone"
             android:inputType="text|textCapWords"
-            android:padding="8dp"
+            android:padding="@dimen/editText_yellow"
             android:textSize="@dimen/textSize" />
 
         <Button
@@ -639,23 +594,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/marginTop_buttonScore"
             android:background="@color/buttonColor"
-            android:padding="@dimen/padding_Button"
+            android:padding="@dimen/padding_button"
             android:text="@string/button_score"
-            android:textSize="@dimen/textSize_Button" />
+            android:textSize="@dimen/textSize_button" />
 
         <Button
             android:id="@+id/button_answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="32dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/marginBottom_buttonAnswers"
+            android:layout_marginTop="@dimen/marginTop_buttonAnswers"
             android:background="@color/buttonColor"
-            android:padding="@dimen/padding_Button"
+            android:padding="@dimen/padding_button"
             android:text="@string/button_answer"
-            android:textSize="@dimen/textSize_Button" />
+            android:textSize="@dimen/textSize_button" />
 
     </LinearLayout>
 

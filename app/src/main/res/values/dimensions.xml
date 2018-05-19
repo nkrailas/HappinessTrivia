@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="linear_layout">24dp</dimen>
+    <dimen name="layoutHeight_image">150dp</dimen>
+    <dimen name="marginBottom_intro">8dp</dimen>
+    <dimen name="marginBottom_textView">12dp</dimen>
     <dimen name="textSize">14sp</dimen>
-    <dimen name="textSize_Main">18sp</dimen>
-    <dimen name="textSize_Button">16sp</dimen>
-    <dimen name="layoutMarginLeft_Button">16dp</dimen>
-    <dimen name="layoutMarginStart_Button">16dp</dimen>
-    <dimen name="padding_Button">6dp</dimen>
-    <dimen name="padding_Question_Text">16dp</dimen>
+    <dimen name="textSize_main">18sp</dimen>
+    <dimen name="textSize_button">16sp</dimen>
+    <dimen name="marginLeft_button">16dp</dimen>
+    <dimen name="marginStart_button">16dp</dimen>
+    <dimen name="padding_button">6dp</dimen>
+    <dimen name="padding_questionText">16dp</dimen>
+    <dimen name="editText_name">8dp</dimen>
+    <dimen name="paddingTop_question1">18dp</dimen>
+    <dimen name="paddingTop_question2to10">24dp</dimen>
+    <dimen name="editText_yellow">8dp</dimen>
+    <dimen name="marginTop_buttonScore">16dp</dimen>
+    <dimen name="marginTop_buttonAnswers">16dp</dimen>
+    <dimen name="marginBottom_buttonAnswers">24dp</dimen>
+    <dimen name="marginTop_header">16dp</dimen>
+    <dimen name="marginBottom_header">8dp</dimen>
+    <dimen name="marginBottom_content">4dp</dimen>
+    <dimen name="marginBottom_answers">16dp</dimen>
+    <dimen name="textSize_answers">16sp</dimen>
 </resources>

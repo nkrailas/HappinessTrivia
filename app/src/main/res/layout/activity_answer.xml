@@ -10,144 +10,144 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="24dp"
-        android:paddingRight="24dp">
+        android:paddingLeft="@dimen/linear_layout"
+        android:paddingRight="@dimen/linear_layout">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/marginBottom_header"
+            android:layout_marginTop="@dimen/marginTop_header"
             android:text="@string/answer_title"
-            android:textSize="16sp" />
+            android:textSize="@dimen/textSize_answers" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q1"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q2"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q3"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q4"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q5"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q6"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q7"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q8"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/answer_q9"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
             android:text="@string/answer_q10"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/marginBottom_header"
+            android:layout_marginTop="@dimen/marginTop_header"
             android:text="@string/bibliography_title"
-            android:textSize="16sp" />
+            android:textSize="@dimen/textSize_answers" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/florentine_e"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/hettner_k"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/lehnardt_k"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/nine_questions"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/pappas_s"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_content"
             android:text="@string/webpage_fx"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="@dimen/marginBottom_answers"
             android:text="@string/where_cities"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize" />
 
     </LinearLayout>
 

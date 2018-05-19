@@ -10,39 +10,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="24dp"
-        android:paddingRight="24dp">
+        android:paddingLeft="@dimen/linear_layout"
+        android:paddingRight="@dimen/linear_layout">
 
         <ImageView
+            android:layout_height="@dimen/layoutHeight_image"
             android:id="@+id/happiness_header"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:contentDescription="@string/yellow_happy_face"
             android:src="@drawable/happiness_header" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginBottom="@dimen/marginBottom_intro"
             android:text="@string/main_intro"
-            android:textSize="@dimen/textSize_Main" />
+            android:textSize="@dimen/textSize_main" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/marginBottom_textView"
             android:text="@string/main_body"
-            android:textSize="@dimen/textSize_Main" />
+            android:textSize="@dimen/textSize_main" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/marginBottom_textView"
             android:text="@string/main_learn"
-            android:textSize="@dimen/textSize_Main" />
+            android:textSize="@dimen/textSize_main" />
 
         <Button
             android:id="@+id/button_start_quiz"
@@ -50,13 +50,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@color/buttonColor"
-            android:padding="@dimen/padding_Button"
+            android:padding="@dimen/padding_button"
             android:text="@string/start_quiz"
-            android:textSize="@dimen/textSize_Button" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textSize="@dimen/textSize_button" />
 
     </LinearLayout>
 
